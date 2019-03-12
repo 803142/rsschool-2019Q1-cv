@@ -62,3 +62,20 @@ footer {
 	text-align: center;
 	background-color: #B3B3B3;
 }
+@media (max-width: 1096px) {
+  .menu {
+    font-size: 3em;
+  }
+  .intro {
+    grid-template-columns: 100%;
+  }
+  .face { 
+      width: 40%;
+      height: auto;
+      border-radius: 50%;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
